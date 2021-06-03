@@ -43,7 +43,7 @@ async def on_message(message):
       embed.add_field(name="이름", value="스냅샷 서버", inline=False)
       embed.add_field(name="게임", value="Minecraft", inline=False)
       embed.add_field(name="주소", value="sobi15.codns.com", inline=False)
-      embed.add_field(name="버전", value="1.17-pre3", inline=False)
+      embed.add_field(name="버전", value="1.17-snapshot", inline=False)
       embed.add_field(name="-", value="-", inline=False)
       embed.add_field(name="이름", value="??? 서버", inline=False)
       embed.add_field(name="게임", value="Minecraft", inline=False)
