@@ -78,19 +78,7 @@ async def on_message(message):
       embed.set_thumbnail(url="https://media.discordapp.net/attachments/795588047381987375/845185855068569640/SOBI.png?width=634&height=676")
       await message.channel.send(embed=embed)
 
-    if message.content.startswith('$세력'):
-      embed = discord.Embed(title="세력",  description="", color=0xAAFFFF)
-      embed.add_field(name="솝이 세력", value="""
-      - 솝이
-      """, inline=False)
-      embed.add_field(name="여우 세력", value="""
-      - 크시
-      - 빌스
-      """, inline=False)
 
-      embed.set_footer(text="!SOBI#1919")
-      embed.set_thumbnail(url="https://media.discordapp.net/attachments/795588047381987375/845185855068569640/SOBI.png?width=634&height=676")
-      await message.channel.send(embed=embed)
 
 
 
